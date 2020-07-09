@@ -1,36 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,423;0,700;1,400;1,423;1,700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
     <title>Portfólio Web - Micaeli Teixeira</title>
 </head>
 <body>
-    <h3>Indice:</h3>
-    <ul>
-        <li><a href="#foto">Foto perfil</a></li>
-        <li><a href="https://www.w3schools.com/html/" target="_blank">Blog</li>
-        <li><a href="#habilidades">Lista de habilidades</a></li>
-
-
+  
+    <!--CABEÇÁRIO-->
+    <div class="cabeça">
+        <a href="#foto" class="botton">Foto perfil</a>
+        <a href="https://www.w3schools.com/html/" target="_blank" class="botton">Blog
+        <a href="#lista" class="botton">Habilidades</a>
+        <a href="..." class="botton">Git Hub</a>
+        <a href="..." class="botton">Linkedln</a>
+    </ul>
+    </div>
+  
+    <!--BANNER-->
+    <div class="banner">
+        <div class="titulo">
+        <br><br>
+        <h1> Oi, eu sou a Micaeli Teixeira! </h1>
+        <h3> Bem vindo ao meu Portfólio Web!</h3>
+    </div>
+    </div>
     
-    <h1> Micaeli Teixeira </h1>
-    <img div="foto" src="MT.jpg" alt ="Foto de perfil da Micaeli Teixeira" width = "200">
-    <h3>Sobre mim:</h3>
-        <p>
-            <strong>Nacionalidade: </strong> Brasileira <br>
-            <strong>Cidade/Estado: </strong> Belo Horizonte/MG <br>
-            <strong>Idade: </strong> 27 anos <br>
-            <strong>Informações adicionais: </strong> Aluna  da Trybe - Turma 06 <br>
+
+   <!--SOBRE MIM -->
+    <div class="sobre-mim">
+        
+        <img id="foto"src="MT.jpg" alt ="Foto de perfil da Micaeli Teixeira" width = "250">
+        <div class=sobre-mim-texto>
+             <h2>Sobre mim:</h2>
+             <p class="basico">
+                <strong>Nacionalidade: </strong> Brasileira <br>
+                <strong>Cidade/Estado: </strong> Belo Horizonte/MG <br>
+                <strong>Idade: </strong> 27 anos <br>
+                <strong>Informações adicionais: </strong> Aluna  da Trybe - Turma 06 <br>
+            </p>
+
+            <p class="descrição">
+                Pra muitos Mika, 27 anos de uma uma cidadezinha do interior de Minas Gerais chamada Santa Bárbara, conhecida na região por ser a cidade do mel. Sou de uma família pequena e bem unida, cresci com não muitas coisas, porém com a instrução de que devia estudar e me dedicar a isso. Então sempre busquei por aprender, viajava e ainda viajo na leitura de livros. Busco sempre aprender, sou curiosa e por isso sempre tento algo novo.Ultimamente a minha curiosidade é me redescobrir.
+            </p>
+        </div>
+     </div>
+     
+     <!--FRASE E HABILIDADES-->
+     <div class="outros">
+
+        <p class="frase">
+           "Se teus sonhos não te assustam é porque eles não são grandes o suficiente!"<br>
+            <small>Autor: Coisa mais linda.</small>
         </p>
-    <h3 div="habilidades">Lista de habilidades:</h3>
+        
+        <h2 id="lista">Lista de habilidades:</h2>           
         <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>PhotoShop</li>
+            <li>Tocar guitarra</li>
+            <li>Gestão de Projetos</li>
         </ul>
+     </div>
     
-    </ul>
 
 
 </body>

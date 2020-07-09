@@ -1,0 +1,114 @@
+body{
+    background-color: #F1F7ED;
+    font-family:"Helvetica",Arial, sans-serif ;
+}
+
+h2{
+    font-family: "Josefin Sans";
+    color: #30011E;
+    letter-spacing: 2px;
+    font-size:xx-large;
+}
+
+/*BANNER*/
+
+.titulo{
+    font-family: "Josefin Sans";
+    padding: inherit;
+    color: #ad8a64;
+    letter-spacing: 2px;
+}
+
+.banner{
+    background: url(capa.png) center no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding-top: 4rem;
+    border: 2px;
+    text-align: center;
+    }
+
+h3{
+    color: white;
+    letter-spacing:2px;
+}
+
+/*CABEÇARIO*/
+
+.cabeça{
+    position: fixed;
+    background-color: #494544;
+    width: -webkit-fill-available;
+    padding: 30px;
+    text-align: center;
+}
+
+.botton{
+    font-family:"Helvetica";
+    font-size: large;
+    border:2px #2D080A;
+    background-color: white;
+    border-radius:5px;
+    margin: 30px;
+    padding: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color:#2D080A;
+
+}
+
+/*SOBRE MIM*/
+
+.sobre-mim{
+    margin: 50px;
+    float: left;
+    letter-spacing: 2px;
+    width: 500px;
+    
+}
+
+#foto{
+    border-radius:200px;
+    border-color:  #494544;
+    border-style: solid;
+}
+
+.sobre-mim-texto{
+    margin-top:2px;
+    }
+
+.basico{
+    font-family: "Helvetica";
+    font-size: small;
+}
+
+strong{
+    color: #30011E;
+}
+
+.descrição {
+    font-family: "helvetica";
+    font-size:larger;
+    color:#5D5F71
+}
+
+
+/*HABILIDADES*/
+
+.outros{
+    margin: 50px;
+    float: right;
+    letter-spacing: 2px;
+    width: 500px;
+    font-family: "helvetica"
+}
+
+.frase{
+    font-family: "Josefin Sans";
+    font-style: italic;
+    color: #2D080A;
+    letter-spacing: 2px;
+    padding: 100px 0px 100px 0px;
+    font-size: xx-large;
+}
